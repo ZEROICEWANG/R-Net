@@ -33,7 +33,7 @@ Download the following datasets and unzip them into `data` folder
 
 ## Download model
 
-- If you want to test the performance of R-Net, please download the model([Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) Google) into `models/R-Model` folder
+- If you want to test the performance of R-Net, please download the model([Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) [Google](https://drive.google.com/file/d/114plxfFnGQIVlhDBVyRFcaiq7m1q6Ojz/view?usp=sharing)) into `models/R-Model` folder
 
 
 ## Training
@@ -51,4 +51,4 @@ Download the following datasets and unzip them into `data` folder
 
 ## Saliency maps & Trained model
 - saliency maps: [Baidu](https://pan.baidu.com/s/16i-zyViOvgn9APK4iTWEMw?pwd=eic1) [Google](https://drive.google.com/file/d/15zvZBk1_MUsg3mjOW7daenDpNjEfpCv0/view?usp=sharing)
-- trained model: [Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) Google
+- trained model: [Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) [Google](https://drive.google.com/file/d/114plxfFnGQIVlhDBVyRFcaiq7m1q6Ojz/view?usp=sharing)
