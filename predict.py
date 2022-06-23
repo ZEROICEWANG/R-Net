@@ -12,7 +12,6 @@ import pickle
 from tqdm import tqdm
 import time
 
-keys = 'RES_Model'
 
 
 def process_dict(stage_dict: dict):
@@ -24,18 +23,15 @@ def process_dict(stage_dict: dict):
 
 
 def predict_img():
-    for j in range(5):
-        index = -1-j
-        name = '2022_01_13_21_57_41'
+        name = 'R_Model'
         file_dict = {1: 'DUTS', 2: 'ECSSD', 3: 'HKU-IS', 4: 'PASCAL-S', 5: 'DUT-OMRON'}
         model = R_RES()
         model.cuda()
-        files = os.listdir('./models/' + keys + '/' + name)
-        dic = torch.load(os.path.join('./models', keys, name, files[index]))
+        dic = torch.load(os.path.join('./models', name, 'model.pth'))
         model.load_state_dict(process_dict(dic['model']))
         model.eval()
         batch_size = 48
-        save_file=name + '_' + files[index].split('.')[0].split('_')[-1]
+        save_file=name
         print(save_file)
         if not os.path.exists(os.path.join('./predict_result', save_file)):
             os.mkdir(os.path.join('./predict_result', save_file))
