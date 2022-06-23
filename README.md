@@ -29,3 +29,26 @@ Download the following datasets and unzip them into `data` folder
 - [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html)
 - [DUT-OMRON](http://saliencydetection.net/dut-omron/)
 - [DUTS](http://saliencydetection.net/duts/)
+
+
+## Download model
+
+- If you want to test the performance of R-Net, please download the model([Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) Google) into `models/R-Model` folder
+
+
+## Training
+
+```shell
+    python3 train.py
+```
+
+## Testing
+
+```shell
+    python3 predict.py
+```
+- After testing, saliency maps of `PASCAL-S`, `ECSSD`, `HKU-IS`, `DUT-OMRON`, `DUTS-TE` will be saved in `predict_result/R-Net/` folder.
+
+## Saliency maps & Trained model
+- saliency maps: [Baidu](https://pan.baidu.com/s/16i-zyViOvgn9APK4iTWEMw?pwd=eic1) [Google](https://drive.google.com/file/d/15zvZBk1_MUsg3mjOW7daenDpNjEfpCv0/view?usp=sharing)
+- trained model: [Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) Google
