@@ -34,7 +34,7 @@ def predict_img():
         save_file=name
         print(save_file)
         if not os.path.exists(os.path.join('./predict_result', save_file)):
-            os.mkdir(os.path.join('./predict_result', save_file))
+            os.makedirs(os.path.join('./predict_result', save_file))
         counter = 0
         for key in range(1, 6):
             if key == 1:
