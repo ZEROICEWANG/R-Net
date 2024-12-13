@@ -206,4 +206,4 @@ if __name__ == '__main__':
     model = R_RES()
     model.cuda()
     print(summary(model, (3, 352, 352)))
-    speed(model, 'resnet')
+    #speed(model, 'resnet')
