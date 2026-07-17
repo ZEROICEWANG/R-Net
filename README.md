@@ -50,5 +50,5 @@ Download the following datasets and unzip them into `data` folder
 - After testing, saliency maps of `PASCAL-S`, `ECSSD`, `HKU-IS`, `DUT-OMRON`, `DUTS-TE` will be saved in `predict_result/R-Net/` folder.
 
 ## Saliency maps & Trained model
-- saliency maps: [Baidu](https://pan.baidu.com/s/16i-zyViOvgn9APK4iTWEMw?pwd=eic1) [Google](https://drive.google.com/file/d/15zvZBk1_MUsg3mjOW7daenDpNjEfpCv0/view?usp=sharing)
+- saliency maps: [Baidu](https://pan.baidu.com/s/1owwotMSMZgmi3TLh9CWnjg?pwd=RNET) [Google](https://drive.google.com/file/d/15zvZBk1_MUsg3mjOW7daenDpNjEfpCv0/view?usp=sharing)
 - trained model: [Baidu](https://pan.baidu.com/s/14vwSXzfG_FtJ3fLN2jUmSg?pwd=ruk0) [Google](https://drive.google.com/file/d/114plxfFnGQIVlhDBVyRFcaiq7m1q6Ojz/view?usp=sharing)
