@@ -24,7 +24,7 @@ cd R-Net/
 
 Download the following datasets and unzip them into `data` folder
 
-- [PASCAL-S](http://cbi.gatech.edu/salobj/)
+- [PASCAL-S](https://ccvl.jhu.edu/datasets/)
 - [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)
 - [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html)
 - [DUT-OMRON](http://saliencydetection.net/dut-omron/)
